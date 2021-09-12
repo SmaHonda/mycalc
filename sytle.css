@@ -1,0 +1,33 @@
+#root{
+    text-align: center;
+    display: none;
+}
+#root2{
+    text-align: center;
+    /* display: none; */
+}
+table{
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+}
+#inputBox{
+    text-align: center;
+}
+
+td{
+    height: 60px;
+    width: 200px;
+}
+
+.titletr td{
+    height: 20px;
+}
+
+
+/* .eachtr:hover{
+    background-color: #1998b8;
+    color: white;
+    transition: background-color 0.2s ease-in ;
+} */
