@@ -1,10 +1,10 @@
 #root{
     text-align: center;
-    display: none;
+    /* display: none; */
 }
 #root2{
     text-align: center;
-    /* display: none; */
+    display: none;
 }
 table{
     text-align: center;
