@@ -8,7 +8,7 @@ const InputControl2 = () => {
     var year = parseInt(inputValue3) ;
     var get = ((inputValue4/1+100)/100).toFixed(3) ;
     var rows=[
-        {years:1 , originmoney:pre+add, addmoney:pre+add, newmoney:pre+add , moneyadd : ((pre+add)*get).toFixed(0) },
+        {years:1 , originmoney:pre+add, addmoney:add, newmoney:pre+add , moneyadd : ((pre+add)*get).toFixed(0) },
         {years:2 , originmoney:pre+add*2, addmoney:add, newmoney:(pre*get+add*get+add).toFixed(0) , moneyadd : (pre*get**2+add*get**2+add*get).toFixed(0) },
         {years:3 , originmoney:pre+add*3, addmoney:add, newmoney:(pre*get**2+add*get**2+add*get+add).toFixed(0) , moneyadd : (pre*get**3+add*get**3+add*get**2+add*get).toFixed(0) },
         {years:4 , originmoney:pre+add*4, addmoney:add, newmoney:(pre*get**3+add*get**3+add*get**2+add*get+add).toFixed(0) , moneyadd : (pre*get**4+add*get**4+add*get**3+add*get**2+add*get).toFixed(0) },
@@ -88,7 +88,7 @@ const InputControl878 = () => {
     var year = parseInt(inputValue3) ;
     var get = ((inputValue4/1+100)/100).toFixed(3) ;
     var rows=[
-        {years:1 , originmoney:pre+add, addmoney:pre+add, newmoney:pre+add , moneyadd : ((pre+add)*get).toFixed(3) },
+        {years:1 , originmoney:pre+add, addmoney:add, newmoney:pre+add , moneyadd : ((pre+add)*get).toFixed(3) },
         {years:2 , originmoney:pre+add*2, addmoney:add, newmoney:(pre*get+add*get+add).toFixed(3) , moneyadd : (pre*get**2+add*get**2+add*get).toFixed(3) },
         {years:3 , originmoney:pre+add*3, addmoney:add, newmoney:(pre*get**2+add*get**2+add*get+add).toFixed(3) , moneyadd : (pre*get**3+add*get**3+add*get**2+add*get).toFixed(3) },
         {years:4 , originmoney:pre+add*4, addmoney:add, newmoney:(pre*get**3+add*get**3+add*get**2+add*get+add).toFixed(3) , moneyadd : (pre*get**4+add*get**4+add*get**3+add*get**2+add*get).toFixed(3) },
